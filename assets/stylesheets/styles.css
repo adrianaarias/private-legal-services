@@ -3,23 +3,16 @@
   margin:0;
 }
 
-.bg {
-  background-image: url("fotofondo.jpg");
-}
 
 .full-page {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 100%;
-  min-width: 1024px;
+  /* The image used */
   width: 100%;
   height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0.8;
+  opacity: 0.5;
+  position: absolute;
+  display: block;
 }
+
 
 .logo {
   display: block;
@@ -69,7 +62,7 @@
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
