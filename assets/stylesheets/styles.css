@@ -4,7 +4,6 @@
 }
 
 
-
 .full-page {
   width: 100%;
   height: auto;
@@ -62,7 +61,7 @@
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
